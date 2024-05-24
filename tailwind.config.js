@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "320px",
+      },
       fontFamily: {
         Noto_Sans_Thai,
         Inter,
