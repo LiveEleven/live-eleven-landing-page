@@ -1,6 +1,5 @@
-const { Noto_Sans_Thai, Inter } = require("next/font/google");
-
 /** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin");
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,8 +12,8 @@ module.exports = {
         xs: "320px",
       },
       fontFamily: {
-        Noto_Sans_Thai,
-        Inter,
+        head: "var(--inter-font)",
+        body: "var(--noto-sans-font)",
       },
       colors: {
         "primary-color": "#A62020",
@@ -24,3 +23,4 @@ module.exports = {
   },
   plugins: [],
 };
+
