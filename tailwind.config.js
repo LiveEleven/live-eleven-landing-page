@@ -8,9 +8,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        xs: "320px",
-      },
       fontFamily: {
         head: "var(--inter-font)",
         body: "var(--noto-sans-font)",
