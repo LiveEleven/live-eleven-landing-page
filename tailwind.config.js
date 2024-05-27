@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        BgLive: "url('/BgLiveStream.png')",
+      },
       fontFamily: {
         head: "var(--inter-font)",
         body: "var(--noto-sans-font)",
@@ -20,4 +23,3 @@ module.exports = {
   },
   plugins: [],
 };
-
