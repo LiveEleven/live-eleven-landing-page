@@ -15,10 +15,10 @@ const EventOrganizer = () => {
           EVENT ORGANIZER
         </h1>
         <div>
-          <p className="font-body text-xs text-white text-center md:text-3xl lg:text-3xl lg:text-left">
+          <p className="font-body text-xs text-white text-center md:text-3xl 2xl:text-4xl lg:text-left">
             ให้บริการจัดงานอีเวนท์ขนาดเล็ก กลาง ใหญ่ งานเปิดตัวสินค้า
           </p>
-          <p className="font-body text-xs text-white text-center md:text-3xl lg:text-3xl lg:text-left">
+          <p className="font-body text-xs text-white text-center md:text-3xl 2xl:text-4xl lg:text-left">
             งาน fanmeet งานมอบรางวัล และงานพิธีการต่างๆ
           </p>
         </div>
