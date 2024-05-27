@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import EventOrganizer from "@/components/EventOrganizer";
 import Header from "@/components/Header";
 import LiveService from "@/components/LiveService";
@@ -11,6 +12,7 @@ export default function Home() {
       <LiveStream />
       {/* <LiveService /> */}
       <EventOrganizer />
+      <AboutUs />
     </main>
   );
 }
