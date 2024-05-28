@@ -8,7 +8,8 @@ export default function Home() {
     <main>
       <Header />
       <LiveStream />
-      {/* <LiveService /> */}
+      <LiveService />
     </main>
   );
 }
+

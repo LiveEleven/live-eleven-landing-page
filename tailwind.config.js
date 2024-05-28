@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const plugin = require("tailwindcss/plugin");
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -23,3 +22,4 @@ module.exports = {
   },
   plugins: [],
 };
+
