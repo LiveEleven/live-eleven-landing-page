@@ -11,7 +11,7 @@ const LiveStream = () => {
         className="mb-16"
       />
       <div className="flex justify-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl  text-center lg:text-left  text-black font-bold font-head">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl  text-center text-black font-bold font-head">
           LIVE STREAM
         </h1>
       </div>
@@ -26,7 +26,7 @@ const LiveStream = () => {
               เชื่อมต่อกับผู้ชมของคุณบนทุกแพลตฟอร์มยอดนิยม ไม่ว่าจะเป็น
               Facebook, Shopee, Lazada, TikTok,
             </p>
-            <p className="font-body text-xs md:text-3xl lg:text-3xl ">
+            <p className="font-body text-xs md:text-3xl lg:text-3xl">
               YouTube, Instagram, ZOOM หรือ Microsoft Teams
               พร้อมรองรับการสตรีมทั้งในแนวตั้งและแนวนอน
             </p>
