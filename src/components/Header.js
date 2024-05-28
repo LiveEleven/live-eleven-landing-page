@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Header = () => {
   return (
-    <div className="bg-primary-color h-auto flex items-center w-full flex-col lg:flex-row-reverse">
+    <div className="bg-primary-color h-screen flex items-center flex-col lg:flex-row-reverse">
       <div
         data-aos="fade-left"
         data-aos-delay={200}

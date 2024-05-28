@@ -11,10 +11,11 @@ export default function Home() {
     <main>
       <Header />
       <LiveStream />
-      {/* <LiveService /> */}
+      <LiveService />
       <LivePackages />
       <EventOrganizer />
       <AboutUs />
     </main>
   );
 }
+
