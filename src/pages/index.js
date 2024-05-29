@@ -6,6 +6,7 @@ import LiveService from "@/components/LiveService";
 import LiveStream from "@/components/LiveStream";
 import Navbar from "@/components/Navbar";
 import RecordLive from "@/components/RecordLive";
+import SetUpLiveStreaming from "@/components/SetUpLiveStreaming";
 
 export default function Home() {
   return (
@@ -16,8 +17,8 @@ export default function Home() {
       <RecordLive />
       <LivePackages />
       <EventOrganizer />
+      <SetUpLiveStreaming />
       <AboutUs />
     </main>
   );
 }
-
