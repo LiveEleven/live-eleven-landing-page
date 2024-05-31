@@ -5,8 +5,10 @@ import LivePackages from "@/components/LivePackages";
 import LiveService from "@/components/LiveService";
 import LiveStream from "@/components/LiveStream";
 import Navbar from "@/components/Navbar";
+import OurWork from "@/components/OurWork";
 import RecordLive from "@/components/RecordLive";
 import SetUpLiveStreaming from "@/components/SetUpLiveStreaming";
+import { Button } from "flowbite-react";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <Header />
       <LiveStream />
       <LiveService />
+      <OurWork />
       <RecordLive />
       <LivePackages />
       <EventOrganizer />
