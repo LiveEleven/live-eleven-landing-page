@@ -1,6 +1,7 @@
 import AboutUs from "@/components/AboutUs";
 import EquipmentService from "@/components/EquipmentService";
 import EventOrganizer from "@/components/EventOrganizer";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HybridEvent from "@/components/HybridEvent";
 import LivePackages from "@/components/LivePackages";
@@ -26,6 +27,7 @@ export default function Home() {
       <HybridEvent />
       <SetUpLiveStreaming />
       <AboutUs />
+      <Footer />
     </main>
   );
 }
