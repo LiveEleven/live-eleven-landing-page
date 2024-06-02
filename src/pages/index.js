@@ -2,6 +2,7 @@ import AboutUs from "@/components/AboutUs";
 import EquipmentService from "@/components/EquipmentService";
 import EventOrganizer from "@/components/EventOrganizer";
 import Header from "@/components/Header";
+import HybridEvent from "@/components/HybridEvent";
 import LivePackages from "@/components/LivePackages";
 import LiveService from "@/components/LiveService";
 import LiveStream from "@/components/LiveStream";
@@ -22,6 +23,7 @@ export default function Home() {
       <LivePackages />
       <EquipmentService />
       <EventOrganizer />
+      <HybridEvent />
       <SetUpLiveStreaming />
       <AboutUs />
     </main>
