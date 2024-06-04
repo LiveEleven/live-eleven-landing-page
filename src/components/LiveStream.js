@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LiveStream = () => {
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center" id="live">
       <Image
         src="/BodyTop.png"
         width={3840}

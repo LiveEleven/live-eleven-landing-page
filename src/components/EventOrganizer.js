@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const EventOrganizer = () => {
   return (
-    <div className="bg-primary-color h-auto flex flex-col items-center w-full justify-between px-5 lg:px-12 lg:flex-row-reverse 2xl:px-48">
+    <div
+      className="bg-primary-color h-auto flex flex-col items-center w-full justify-between px-5 lg:px-12 lg:flex-row-reverse 2xl:px-48"
+      id="event"
+    >
       <Image
         src="/Event.jpg"
         width={600}

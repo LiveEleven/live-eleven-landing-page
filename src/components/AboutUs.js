@@ -1,6 +1,9 @@
 const AboutUs = () => {
   return (
-    <div className="bg-primary-color h-auto flex flex-col items-center w-full">
+    <div
+      className="bg-primary-color h-auto flex flex-col items-center w-full"
+      id="aboutus"
+    >
       <h1 className="text-4xl mt-5 md:text-5xl lg:text-6xl xl:text-7xl text-center text-white font-bold font-head lg:text-left">
         ABOUT US
       </h1>
