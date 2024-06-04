@@ -3,7 +3,7 @@ import React from "react";
 
 const EquipmentService = () => {
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center" id="equipment">
       <Image
         src="/BodyTop.png"
         width={3840}
