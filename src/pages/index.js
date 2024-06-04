@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import Client from "@/components/Client";
 import EquipmentService from "@/components/EquipmentService";
 import EventOrganizer from "@/components/EventOrganizer";
 import Footer from "@/components/Footer";
@@ -27,6 +28,7 @@ export default function Home() {
       <HybridEvent />
       <SetUpLiveStreaming />
       <AboutUs />
+      <Client />
       <Footer />
     </main>
   );
