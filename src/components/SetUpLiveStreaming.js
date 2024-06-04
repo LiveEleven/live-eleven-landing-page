@@ -1,7 +1,10 @@
 const SetUpLiveStreaming = () => {
   return (
-    <div className="bg-primary-color">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl  text-center text-white font-bold font-head">
+    <div className="bg-primary-color py-20">
+      <h1
+        className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center text-white font-bold font-head"
+        id="setup"
+      >
         SET UP LIVE STREAM
       </h1>
       <hr class="w-32 h-1 mx-auto my-6 bg-white border-0 rounded md:my-16 md:w-40 lg:w-48" />
@@ -21,7 +24,10 @@ const SetUpLiveStreaming = () => {
       </p>
       <hr class="w-32 h-1 mx-auto mt-10 bg-white border-0 rounded md:mt-20 md:w-40 lg:w-48 mb-5" />
 
-      <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-white font-bold font-head my-20">
+      <h2
+        className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-white font-bold font-head my-20"
+        id="setUpLivePackages"
+      >
         SET UP LIVE STREAM PACKAGES
       </h2>
       <div className="flex flex-col mx-0 lg:mx-72 2xl:mx-96 lg:flex-row">

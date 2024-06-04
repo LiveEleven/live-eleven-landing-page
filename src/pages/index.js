@@ -12,25 +12,24 @@ import Navbar from "@/components/Navbar";
 import OurWork from "@/components/OurWork";
 import RecordLive from "@/components/RecordLive";
 import SetUpLiveStreaming from "@/components/SetUpLiveStreaming";
-import { Button } from "flowbite-react";
 
 export default function Home() {
   return (
     <main>
+      <Navbar />
       <Header />
       <LiveStream />
       <LiveService />
       <OurWork />
       <RecordLive />
       <LivePackages />
-      <EquipmentService />
       <EventOrganizer />
       <HybridEvent />
       <SetUpLiveStreaming />
+      <EquipmentService />
       <AboutUs />
       <Client />
       <Footer />
     </main>
   );
 }
-

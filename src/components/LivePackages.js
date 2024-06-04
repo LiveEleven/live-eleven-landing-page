@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LivePackages = () => {
   return (
-    <div>
+    <div id="livePackages">
       <Image
         src="/BodyTop.png"
         width={3840}
