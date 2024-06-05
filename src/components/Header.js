@@ -46,8 +46,8 @@ const Header = () => {
             MEDIA LIFE
           </h2>
         </div>
-        <div className="flex justify-center xl:mt-11">
-          <button class="text-black p-4 hover:before:border-black relative rounded-lg delay-0 duration-300 overflow-hidden border border-black px-3 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-black before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full">
+        <div className="flex justify-center mt-2 md:mt-5 xl:mt-11">
+          <button class="text-black p-4 px-10 hover:before:border-black relative rounded-lg delay-0 duration-300 overflow-hidden border-2 border-black transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-black before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full">
             <Link
               activeClass="active"
               to="contact"
@@ -55,7 +55,7 @@ const Header = () => {
               smooth={true}
               offset={0}
               duration={500}
-              className="text-2xl xl:text-6xl font-head"
+              className="text-2xl xl:text-4xl font-head font-semibold"
             >
               <span class="relative z-10">Contact Us</span>
             </Link>

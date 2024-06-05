@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import ContactUs from "@/components/ContactUs";
 import Client from "@/components/Client";
 import EquipmentService from "@/components/EquipmentService";
 import EventOrganizer from "@/components/EventOrganizer";
@@ -29,6 +30,7 @@ export default function Home() {
       <EquipmentService />
       <AboutUs />
       <Client />
+      <ContactUs />
       <Footer />
     </main>
   );
