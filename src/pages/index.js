@@ -13,6 +13,7 @@ import Navbar from "@/components/Navbar";
 import OurWork from "@/components/OurWork";
 import RecordLive from "@/components/RecordLive";
 import SetUpLiveStreaming from "@/components/SetUpLiveStreaming";
+import AddOns from "@/components/AddOns";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <OurWork />
       <RecordLive />
       <LivePackages />
+      <AddOns />
       <EventOrganizer />
       <HybridEvent />
       <SetUpLiveStreaming />
