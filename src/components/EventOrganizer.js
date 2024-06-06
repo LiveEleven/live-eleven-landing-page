@@ -7,13 +7,21 @@ const EventOrganizer = () => {
       id="event"
     >
       <Image
+        data-aos="fade-left"
+        data-aos-delay={200}
+        data-aos-duration="1000"
         src="/Event.jpg"
         width={600}
         height={200}
         alt="EventPic"
         className="rounded-xl my-10"
       />
-      <div className="flex flex-col gap-5 mb-10 lg:gap-20 lg:mb-0">
+      <div
+        data-aos="fade-right"
+        data-aos-delay={200}
+        data-aos-duration="1000"
+        className="flex flex-col gap-5 mb-10 lg:gap-20 lg:mb-0"
+      >
         <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-white font-bold font-head lg:text-left">
           EVENT ORGANIZER
         </h1>

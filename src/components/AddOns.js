@@ -14,7 +14,12 @@ const AddOns = () => {
         </h1>
       </div>
       <hr class="w-32 h-1 mx-auto my-6 bg-primary-color border-0 rounded md:my-16 md:w-40 lg:w-48" />
-      <div className="flex flex-col px-14 gap-4 md:px-20 md:flex-row md:justify-between">
+      <div
+        data-aos="fade-up"
+        data-aos-delay={200}
+        data-aos-duration="1000"
+        className="flex flex-col px-14 gap-4 md:px-20 md:flex-row md:justify-between"
+      >
         <AddOnsCol1 />
         <AddOnsCol2 />
         <AddOnsCol3 />
@@ -34,3 +39,4 @@ const AddOns = () => {
 };
 
 export default AddOns;
+

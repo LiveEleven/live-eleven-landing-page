@@ -17,7 +17,7 @@ const OurWork = () => {
           OUR WORK
         </h1>
       </div>
-      <hr class="w-32 h-1 mx-auto my-6 bg-primary-color border-0 rounded md:my-16 md:w-40 lg:w-48" />
+      <hr class="w-32 h-1 mx-auto mt-6 bg-primary-color border-0 rounded md:mt-16 md:w-40 lg:w-48" />
       <div className="mx-auto h-[300px] w-[300px] md:h-[700px] md:w-[700px] lg:h-[1350px] lg:w-[1350px] 2xl:h-[1600px] 2xl:w-[1600px]">
         <CustomCarousel>
           <div className="grid grid-cols-2 grid-rows-2 gap-5">

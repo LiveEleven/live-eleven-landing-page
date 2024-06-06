@@ -8,7 +8,12 @@ const Client = () => {
         TRUSTED BY
       </h1>
       <hr className="w-32 h-1 mx-auto mt-3 bg-white border-0 rounded md:mt-10 md:w-40 lg:w-48" />
-      <div className="mx-auto h-[100px] lg:h-[200px] w-full flex">
+      <div
+        data-aos="fade-left"
+        data-aos-delay={200}
+        data-aos-duration="1000"
+        className="mx-auto h-[100px] lg:h-[200px] w-full flex"
+      >
         <CustomCarousel>
           <div className="grid grid-cols-4">
             <div className="flex justify-center items-center">

@@ -1,13 +1,23 @@
 const RecordLive = () => {
   return (
     <div className="bg-primary-color flex flex-col items-center text-white w-full md:h-[600px] lg:flex-row xl:h-[800px] lg:px-14 py-6">
-      <div className="left w-full h-1/2 lg:h-3/5 flex justify-center ">
+      <div
+        data-aos="fade-right"
+        data-aos-delay={200}
+        data-aos-duration="1000"
+        className="left w-full h-1/2 lg:h-3/5 flex justify-center "
+      >
         <iframe
           src="https://www.youtube.com/embed/Uj4AWaR7gjU"
           className="w-4/5 lg:w-full h-full"
         />
       </div>
-      <div className="right w-full h-1/2 mt-6">
+      <div
+        data-aos="fade-left"
+        data-aos-delay={200}
+        data-aos-duration="1000"
+        className="right w-full h-1/2 mt-6"
+      >
         <h2 className="font-bold font-head text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl ">
           Record Live
         </h2>
