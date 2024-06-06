@@ -13,7 +13,87 @@ const AddOnsTablet1 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head">Full-Frame Mirrorless Camera</p>
+          <p className="text-left font-head text-md">
+            Full-Frame Mirrorless Camera
+          </p>
+        </MenuButton>
+        <MenuItems>
+          <MenuItem>
+            <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
+              10,000 ฿
+            </p>
+          </MenuItem>
+        </MenuItems>
+      </Menu>
+      <Menu>
+        <MenuButton className="flex items-center gap-3">
+          <Image
+            src="/plus.png"
+            width={50}
+            height={50}
+            alt="Plus"
+            className="w-4 h-4"
+          />
+          <p className="text-left font-head text-md">Computer vMix</p>
+        </MenuButton>
+        <MenuItems>
+          <MenuItem>
+            <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
+              2,500 ฿
+            </p>
+          </MenuItem>
+        </MenuItems>
+      </Menu>
+      <Menu>
+        <MenuButton className="flex items-center gap-3">
+          <Image
+            src="/plus.png"
+            width={50}
+            height={50}
+            alt="Plus"
+            className="w-4 h-4"
+          />
+          <p className="text-left font-head text-md">Monitor 24 inch</p>
+        </MenuButton>
+        <MenuItems>
+          <MenuItem>
+            <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
+              1,000 ฿
+            </p>
+          </MenuItem>
+        </MenuItems>
+      </Menu>
+      <Menu>
+        <MenuButton className="flex items-center gap-3">
+          <Image
+            src="/plus.png"
+            width={50}
+            height={50}
+            alt="Plus"
+            className="w-4 h-4"
+          />
+          <p className="text-left font-head text-md">
+            Green Screen (For 1 Person)
+          </p>
+        </MenuButton>
+        <MenuItems>
+          <MenuItem>
+            <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
+              2,500 ฿
+            </p>
+          </MenuItem>
+        </MenuItems>
+      </Menu>
+      <Menu>
+        <MenuButton className="flex items-center gap-3">
+          <Image
+            src="/plus.png"
+            width={50}
+            height={50}
+            alt="Plus"
+            className="w-4 h-4"
+          />
+          <p className="text-left font-head text-md">Sound Engineer</p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
@@ -32,12 +112,12 @@ const AddOnsTablet1 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head">Computer vMix</p>
+          <p className="text-left font-head text-md">Computer Admin</p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
             <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
+              1,500 ฿
             </p>
           </MenuItem>
         </MenuItems>
@@ -51,69 +131,14 @@ const AddOnsTablet1 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head">Monitor 24 inch</p>
+          <p className="text-left font-head text-md">
+            4G Bonding internet (2sim)
+          </p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
             <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
-            </p>
-          </MenuItem>
-        </MenuItems>
-      </Menu>
-      <Menu>
-        <MenuButton className="flex items-center gap-3">
-          <Image
-            src="/plus.png"
-            width={50}
-            height={50}
-            alt="Plus"
-            className="w-4 h-4"
-          />
-          <p className="text-left font-head">Green Screen (For 1 Person)</p>
-        </MenuButton>
-        <MenuItems>
-          <MenuItem>
-            <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
-            </p>
-          </MenuItem>
-        </MenuItems>
-      </Menu>
-      <Menu>
-        <MenuButton className="flex items-center gap-3">
-          <Image
-            src="/plus.png"
-            width={50}
-            height={50}
-            alt="Plus"
-            className="w-4 h-4"
-          />
-          <p className="text-left font-head">Sound Engineer</p>
-        </MenuButton>
-        <MenuItems>
-          <MenuItem>
-            <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
-            </p>
-          </MenuItem>
-        </MenuItems>
-      </Menu>
-      <Menu>
-        <MenuButton className="flex items-center gap-3">
-          <Image
-            src="/plus.png"
-            width={50}
-            height={50}
-            alt="Plus"
-            className="w-4 h-4"
-          />
-          <p className="text-left font-head">Computer Admin</p>
-        </MenuButton>
-        <MenuItems>
-          <MenuItem>
-            <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
+              5,000 ฿
             </p>
           </MenuItem>
         </MenuItems>
