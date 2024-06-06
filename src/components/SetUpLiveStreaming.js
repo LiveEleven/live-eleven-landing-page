@@ -32,75 +32,56 @@ const SetUpLiveStreaming = () => {
       </h2>
       <div className="flex flex-col mx-0 lg:mx-72 2xl:mx-96 lg:flex-row">
         <div className="bg-white flex flex-col items-center mx-auto px-5 border-2 border-primary-color rounded-lg mt-10 shadow-column lg:shadow-row">
-          <h2 className="font-head text-xl font-bold mt-6 md:text-3xl lg:text-2xl">
-            Package Live [S]
+          <h2 className="font-head text-md font-bold mt-6 md:text-xl lg:text-2xl">
+            Online Set
           </h2>
-          <h3 className="font-head text-6xl font-bold my-12 md:text-8xl lg:text-7xl">
-            15,000 ฿
+          <h3 className="font-head text-4xl font-bold my-8 md:text-5xl lg:text-7xl">
+            10,000 ฿
           </h3>
           <div>
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Mirrorless Camera
+            <hr class="w-44 h-0.5 mx-auto mt-2 mb-6 bg-secondary-color border-0 rounded md:my-10 md:w-64 lg:w-48" />
+            <p className="font-head text-sm text-center font-semibold md:text-lg">
+              เช็คอุปกรณ์ที่มีและขาดเหลือผ่าน
             </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Wireless Microphone
+            <p className="font-head text-sm text-center font-semibold md:text-lg">
+              ระบบonline chat / video call
             </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Router Internet 5G
+            <p className="font-head text-sm text-center font-semibold md:text-lg">
+              ถ่ายพื้นที่หน้างาน
             </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Live System
+            <p className="font-head text-sm text-center font-semibold md:text-lg">
+              พร้อมให้คำปรึกษา
             </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Final Monitor
-            </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              Stream Duration 1 hr.
+            <p className="font-head text-sm text-center font-semibold md:text-lg">
+              การใช้ software ต่างๆ
             </p>
           </div>
-          <p className="font-body text-center mt-56 mb-6 text-[9px] md:text-sm lg:text-xs">
+          <p className="font-body text-center mt-12 mb-6 text-[9px] md:text-xs">
             *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
           </p>
         </div>
 
         <div className="bg-white flex flex-col items-center mx-auto px-5 border-2 border-primary-color rounded-lg mt-10 shadow-column lg:shadow-row">
-          <h2 className="font-head text-xl font-bold mt-6 md:text-3xl lg:text-2xl">
-            Package Live [S]
+          <h2 className="font-head text-md font-bold mt-6 md:text-xl lg:text-2xl">
+            On-Lo Set
           </h2>
-          <h3 className="font-head text-6xl font-bold my-12 md:text-8xl lg:text-7xl">
+          <h2 className="font-head text-md font-bold md:text-xl lg:text-2xl"></h2>
+          <h3 className="font-head text-4xl font-bold my-8 md:text-5xl lg:text-7xl">
             15,000 ฿
           </h3>
           <div>
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Mirrorless Camera
+            <hr class="w-44 h-0.5 mx-auto mt-2 mb-6 bg-secondary-color border-0 rounded md:my-10 md:w-64 lg:w-48" />
+            <p className="font-head text-sm text-center font-semibold md:text-lg">
+              Everything in Online set
             </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Wireless Microphone
+            <p className="font-head text-sm text-center font-semibold md:text-lg">
+              เดินทางไปสถานที่พร้อม set up อุปกรณ์
             </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Router Internet 5G
-            </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Live System
-            </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              1 Final Monitor
-            </p>
-            <hr class="w-60 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-80 lg:w-48" />
-            <p className="font-head text-lg text-center font-semibold md:text-2xl lg:text-lg">
-              Stream Duration 1 hr.
+            <p className="font-head text-sm text-center font-semibold md:text-lg">
+              รวมถึงการให้คำปรึกษาทั้งระบบ
             </p>
           </div>
-          <p className="font-body text-center mt-56 mb-6 text-[9px] md:text-sm lg:text-xs">
+          <p className="font-body text-center mt-12 mb-6 text-[9px] md:text-xs">
             *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
           </p>
         </div>
