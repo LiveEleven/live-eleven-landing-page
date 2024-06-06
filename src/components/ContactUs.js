@@ -44,7 +44,10 @@ const ContactUs = () => {
       });
   };
   return (
-    <div className="bg-white h-auto flex flex-col items-center w-full">
+    <div
+      className="bg-white h-auto flex flex-col items-center w-full"
+      to="contact"
+    >
       <h1 className=" mt-8 text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-black font-bold font-head lg:text-left">
         CONTACT US
       </h1>
@@ -218,4 +221,3 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
-
