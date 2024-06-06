@@ -14,7 +14,7 @@ const EventOrganizer = () => {
         className="rounded-xl my-10"
       />
       <div className="flex flex-col gap-5 mb-10 lg:gap-20 lg:mb-0">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center text-white font-bold font-head lg:text-left">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-white font-bold font-head lg:text-left">
           EVENT ORGANIZER
         </h1>
         <div>
@@ -31,3 +31,4 @@ const EventOrganizer = () => {
 };
 
 export default EventOrganizer;
+

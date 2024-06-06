@@ -8,7 +8,7 @@ const RecordLive = () => {
         />
       </div>
       <div className="right w-full h-1/2 mt-6">
-        <h2 className="font-bold font-head text-center text-2xl md:text-5xl lg:text-6xl">
+        <h2 className="font-bold font-head text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl ">
           Record Live
         </h2>
         <p className="font-body text-xs text-white text-center md:text-3xl 2xl:text-4xl lg:text-left mt-4 px-9 lg:indent-14 ">
