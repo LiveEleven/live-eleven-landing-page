@@ -27,13 +27,7 @@ const AddOns = () => {
         <AddOnsTablet2 />
       </div>
       <hr class="w-32 h-1 mx-auto mt-10 bg-primary-color border-0 rounded md:mt-20 md:w-40 lg:w-48" />
-      <Image
-        src="/BodyBottom.png"
-        width={3840}
-        height={200}
-        alt="BodyTop"
-        className="mt-14"
-      />
+      <div className="bg-customBottomGradient h-[200px]"></div>
     </div>
   );
 };
