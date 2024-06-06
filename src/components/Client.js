@@ -12,15 +12,22 @@ const Client = () => {
         data-aos="fade-left"
         data-aos-delay={200}
         data-aos-duration="1000"
-        className="mx-auto h-[100px] lg:h-[200px] w-full flex"
+        className="mx-auto h-[100px] lg:h-[200px] w-full flex md:mt-4"
       >
         <CustomCarousel>
-          <div className="grid grid-cols-4">
+          <div className="grid grid-cols-3">
             <div className="flex justify-center items-center">
-              <Image src="/cerave.png" alt="." width={250} height={250} />
+              <Image
+                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                src="/cerave.png"
+                alt="."
+                width={250}
+                height={250}
+              />
             </div>
             <div className="flex justify-center items-center">
               <Image
+                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
                 src="/la-roche-posay.png"
                 alt="."
                 width={250}
@@ -28,19 +35,43 @@ const Client = () => {
               />
             </div>
             <div className="flex justify-center items-center">
-              <Image src="/loreal.png" alt="." width={250} height={250} />
-            </div>
-            <div className="flex justify-center items-center">
-              <Image src="/vichy.png" alt="." width={250} height={250} />
+              <Image
+                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                src="/loreal.png"
+                alt="."
+                width={250}
+                height={250}
+              />
             </div>
           </div>
 
-          <div className="grid grid-cols-4">
+          <div className="grid grid-cols-3">
             <div className="flex justify-center items-center">
-              <Image src="/cgsi.png" alt="." width={250} height={250} />
+              <Image
+                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                src="/vichy.png"
+                alt="."
+                width={250}
+                height={250}
+              />
             </div>
             <div className="flex justify-center items-center">
-              <Image src="/irplus.png" alt="." width={250} height={250} />
+              <Image
+                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                src="/cgsi.png"
+                alt="."
+                width={250}
+                height={250}
+              />
+            </div>
+            <div className="flex justify-center items-center">
+              <Image
+                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                src="/irplus.png"
+                alt="."
+                width={250}
+                height={250}
+              />
             </div>
           </div>
         </CustomCarousel>
