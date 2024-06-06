@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <p>Copyright © 2024 LiveEleven</p>
+        <p>Copyright © 2024 ELEVEN MEDIA LIFE</p>
       </div>
     </div>
   );
