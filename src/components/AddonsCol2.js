@@ -13,12 +13,14 @@ const AddOnsCol2 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head">Sound Engineer</p>
+          <p className="text-left font-head text-sm lg:text-lg">
+            Computer Admin
+          </p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
             <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
+              1,500 ฿
             </p>
           </MenuItem>
         </MenuItems>
@@ -32,12 +34,14 @@ const AddOnsCol2 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head">Computer Admin</p>
+          <p className="text-left font-head text-sm lg:text-lg">
+            4G Bonding internet (2sim)
+          </p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
             <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
+              5,000 ฿
             </p>
           </MenuItem>
         </MenuItems>
@@ -51,12 +55,14 @@ const AddOnsCol2 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head">4G Bonding internet ( 2sim )</p>
+          <p className="text-left font-head text-sm lg:text-lg">
+            Studio Lighting
+          </p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
             <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
+              2,000 ฿
             </p>
           </MenuItem>
         </MenuItems>
@@ -70,7 +76,30 @@ const AddOnsCol2 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head">Studio Lighting</p>
+          <p className="text-left font-head text-sm lg:text-lg">
+            Zoom Meeting Pin (3-6 Person)
+          </p>
+        </MenuButton>
+        <MenuItems>
+          <MenuItem>
+            <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
+              3,000 ฿
+            </p>
+          </MenuItem>
+        </MenuItems>
+      </Menu>
+      <Menu>
+        <MenuButton className="flex items-center gap-3">
+          <Image
+            src="/plus.png"
+            width={50}
+            height={50}
+            alt="Plus"
+            className="w-4 h-4"
+          />
+          <p className="text-left font-head text-sm lg:text-lg">
+            Zoom Meeting (300 Participants)
+          </p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
