@@ -1,13 +1,14 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 require("dotenv").config();
 
 const ContactUs = () => {
   const form = useRef();
-
+  const [isDisable, SetIsDisable] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
-
+    SetIsDisable(true);
     emailjs
       .sendForm(
         process.env.EMAILJS_SERVICE_ID,
@@ -19,14 +20,28 @@ const ContactUs = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           console.log("SUCCESS!");
+          Swal.fire({
+            title: "Success!",
+            text: "Message Send",
+            icon: "success",
+            confirmButtonText: "OK",
+          });
           e.target.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
+          Swal.fire({
+            title: "Error!",
+            text: "Do you want to continue",
+            icon: "error",
+            confirmButtonText: "OK",
+          });
         }
-      );
+      )
+      .finally(() => {
+        SetIsDisable(false);
+      });
   };
   return (
     <div className="bg-white h-auto flex flex-col items-center w-full">
@@ -190,6 +205,7 @@ const ContactUs = () => {
         </div>
         <button
           type="submit"
+          disabled={isDisable}
           className="text-black p-4 px-10 hover:before:border-black relative rounded-lg delay-0 duration-300 overflow-hidden border-2 border-black transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-black before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full"
         >
           <span class="relative z-10 text-sm md:text-lg font-head font-semibold">
