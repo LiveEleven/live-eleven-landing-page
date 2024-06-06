@@ -54,4 +54,9 @@ export const liveServicesData = [
     description: "ถ่ายทอดสดพร้อมโต้ตอบ ทั้งออนไลน์และออฟไลน์",
     image: "/hybrid-live.png",
   },
+  {
+    title: "etc.",
+    description: "อื่นๆ",
+    image: "/more.png",
+  },
 ];
