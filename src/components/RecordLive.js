@@ -11,7 +11,7 @@ const RecordLive = () => {
         <h2 className="font-bold font-head text-center text-2xl md:text-5xl lg:text-6xl">
           Record Live
         </h2>
-        <p className="font-body text-xs text-white text-center md:text-3xl 2xl:text-4xl lg:text-left mt-4 px-9 lg:indent-14 ">
+        <p className="font-body text-xs px-4 text-white text-center md:text-3xl 2xl:text-4xl lg:text-left mt-4 lg:px-6 lg:indent-14 ">
           การบันทึกการถ่ายทอดสด (Record Live)
           เป็นบริการที่ช่วยให้คุณเก็บทุกช่วงเวลาสำคัญ ในระหว่างการสตรีมมิ่ง
           เพื่อให้คุณสามารถนำวีดีโอที่บันทึกไว้ไปใช้ประโยชน์ในภายหลังได้ตามต้องการ
