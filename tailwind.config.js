@@ -13,9 +13,9 @@ module.exports = {
       backgroundImage: {
         BgLive: "url('/BgLiveStream.png')",
         customTopGradient:
-          "linear-gradient(354deg, rgba(255,255,255,1) 53%, rgba(166,32,32,1) 56%)",
+          "linear-gradient(356deg, rgba(255,255,255,1) 53%, rgba(166,32,32,1) 56%)",
         customBottomGradient:
-          "linear-gradient(175deg, rgba(255,255,255,1) 53%, rgba(166,32,32,1) 56%)",
+          "linear-gradient(176deg, rgba(255,255,255,1) 53%, rgba(166,32,32,1) 56%)",
       },
       fontFamily: {
         head: "var(--inter-font)",
