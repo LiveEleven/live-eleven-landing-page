@@ -3,13 +3,7 @@ import Image from "next/image";
 const LivePackages = () => {
   return (
     <div id="livePackages">
-      <Image
-        src="/BodyTop.png"
-        width={3840}
-        height={200}
-        alt="BodyTop"
-        className="mb-16"
-      />
+      <div className="bg-customTopGradient h-[200px]"></div>
       <div className="flex justify-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-black font-bold font-head">
           LIVE PACKAGES

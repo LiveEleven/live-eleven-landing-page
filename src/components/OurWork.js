@@ -5,13 +5,7 @@ import CustomCarousel from "./CustomCarousel";
 const OurWork = () => {
   return (
     <div>
-      <Image
-        src="/BodyTop.png"
-        width={3840}
-        height={200}
-        alt="BodyTop"
-        className="mb-16"
-      />
+      <div className="bg-customTopGradient h-[200px]"></div>
       <div className="flex justify-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-black font-bold font-head">
           OUR WORK
@@ -82,13 +76,7 @@ const OurWork = () => {
         </CustomCarousel>
       </div>
       <hr class="w-32 h-1 mx-auto mt-10 bg-primary-color border-0 rounded md:mt-20 md:w-40 lg:w-48" />
-      <Image
-        src="/BodyBottom.png"
-        width={3840}
-        height={200}
-        alt="BodyTop"
-        className="mt-14"
-      />
+      <div className="bg-customBottomGradient h-[200px]"></div>
     </div>
   );
 };
