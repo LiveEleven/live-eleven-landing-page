@@ -104,7 +104,7 @@ const AddOnsCol1 = () => {
         <MenuItems>
           <MenuItem>
             <p className="text-sm bg-gray-200 py-1 px-3 w-fit rounded-md">
-              12,000
+              12,000 ฿
             </p>
           </MenuItem>
         </MenuItems>

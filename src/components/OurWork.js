@@ -22,61 +22,31 @@ const OurWork = () => {
         <CustomCarousel>
           <div className="grid grid-cols-2 grid-rows-2 gap-5">
             <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/1.png" alt="." width={1000} height={1000} />
             </div>
             <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/2.png" alt="." width={1000} height={1000} />
             </div>
             <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/3.png" alt="." width={1000} height={1000} />
             </div>
             <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 grid-rows-2 gap-5">
-            <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
-            </div>
-            <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
-            </div>
-            <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
-            </div>
-            <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/4.png" alt="." width={1000} height={1000} />
             </div>
           </div>
 
           <div className="grid grid-cols-2 grid-rows-2 gap-5">
             <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/5.png" alt="." width={1000} height={1000} />
             </div>
             <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/6.png" alt="." width={1000} height={1000} />
             </div>
             <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/7.png" alt="." width={1000} height={1000} />
             </div>
             <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 grid-rows-2 gap-5">
-            <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
-            </div>
-            <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
-            </div>
-            <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
-            </div>
-            <div>
-              <Image src="/Event.jpg" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/8.png" alt="." width={1000} height={1000} />
             </div>
           </div>
         </CustomCarousel>
@@ -94,4 +64,3 @@ const OurWork = () => {
 };
 
 export default OurWork;
-

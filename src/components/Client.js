@@ -4,7 +4,7 @@ import CustomCarousel from "./CustomCarousel";
 const Client = () => {
   return (
     <div className="bg-black h-auto flex flex-col items-center w-full">
-      <h1 className=" mt-5 text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold font-head lg:text-left">
+      <h1 className=" mt-10 text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold font-head lg:text-left">
         TRUSTED BY
       </h1>
       <hr className="w-32 h-1 mx-auto mt-3 bg-white border-0 rounded md:mt-10 md:w-40 lg:w-48" />
@@ -76,7 +76,7 @@ const Client = () => {
           </div>
         </CustomCarousel>
       </div>
-      <hr class="w-32 h-1 mx-auto mt-5 bg-white border-0 rounded md:mt-10 md:w-40 lg:w-48 mb-5" />
+      <hr class="w-32 h-1 mx-auto mt-5 bg-white border-0 rounded md:mt-10 md:w-40 lg:w-48 mb-14" />
     </div>
   );
 };
