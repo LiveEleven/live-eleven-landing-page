@@ -56,7 +56,7 @@ const SetUpLiveStreaming = () => {
               การใช้ software ต่างๆ
             </p>
           </div>
-          <p className="font-body text-center mt-12 mb-6 text-[9px] md:text-xs">
+          <p className="font-body text-center mt-14 mb-6 text-[9px] md:text-xs">
             *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
           </p>
         </div>
@@ -81,7 +81,7 @@ const SetUpLiveStreaming = () => {
               รวมถึงการให้คำปรึกษาทั้งระบบ
             </p>
           </div>
-          <p className="font-body text-center mt-12 mb-6 text-[9px] md:text-xs">
+          <p className="font-body text-center mt-28 mb-6 text-[9px] md:text-xs">
             *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
           </p>
         </div>
@@ -92,4 +92,3 @@ const SetUpLiveStreaming = () => {
 };
 
 export default SetUpLiveStreaming;
-
