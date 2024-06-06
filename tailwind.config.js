@@ -13,9 +13,9 @@ module.exports = {
       backgroundImage: {
         BgLive: "url('/BgLiveStream.png')",
         customTopGradient:
-          "linear-gradient(356deg, rgba(255,255,255,1) 53%, rgba(166,32,32,1) 56%)",
+          "linear-gradient(357deg, rgba(255,255,255,1) 55%, rgba(166,32,32,1) 56%)",
         customBottomGradient:
-          "linear-gradient(176deg, rgba(255,255,255,1) 53%, rgba(166,32,32,1) 56%)",
+          "linear-gradient(177deg, rgba(255,255,255,1) 55%, rgba(166,32,32,1) 56%)",
       },
       fontFamily: {
         head: "var(--inter-font)",
@@ -34,4 +34,3 @@ module.exports = {
   },
   plugins: [flowbite.plugin()],
 };
-
