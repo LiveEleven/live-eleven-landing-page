@@ -22,7 +22,7 @@ const HybridEvent = () => {
         data-aos-duration="1000"
         className="flex flex-col gap-5 mb-10 lg:gap-20 lg:mb-0 lg:pl-36"
       >
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center text-black font-bold font-head lg:text-left">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-black font-bold font-head lg:text-left">
           HYBRID EVENT
         </h1>
         <div>

@@ -2,7 +2,7 @@ const SetUpLiveStreaming = () => {
   return (
     <div className="bg-primary-color py-20">
       <h1
-        className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center text-white font-bold font-head"
+        className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold font-head"
         id="setup"
       >
         SET UP LIVE STREAM
@@ -111,3 +111,4 @@ const SetUpLiveStreaming = () => {
 };
 
 export default SetUpLiveStreaming;
+
