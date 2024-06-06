@@ -1,7 +1,10 @@
 const AboutUs = () => {
   return (
-    <div className="bg-primary-color h-auto flex flex-col items-center w-full">
-      <h1 className="text-4xl mt-5 md:text-5xl lg:text-6xl xl:text-7xl text-center text-white font-bold font-head lg:text-left">
+    <div
+      className="bg-primary-color h-auto flex flex-col items-center w-full"
+      id="aboutus"
+    >
+      <h1 className=" mt-5 text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-white font-bold font-head lg:text-left">
         ABOUT US
       </h1>
       <hr class="w-32 h-1 mx-auto my-6 bg-white border-0 rounded md:my-16 md:w-40 lg:w-48" />
@@ -21,3 +24,4 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+

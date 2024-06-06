@@ -1,7 +1,11 @@
 import Image from "next/image";
+import { Link } from "react-scroll";
 const Header = () => {
   return (
-    <div className="bg-primary-color h-screen flex items-center flex-col lg:flex-row-reverse">
+    <div
+      id="header"
+      className="bg-primary-color h-screen flex items-center flex-col lg:flex-row-reverse mt-14 lg:mt-20"
+    >
       <div
         data-aos="fade-left"
         data-aos-delay={200}
@@ -42,9 +46,19 @@ const Header = () => {
             MEDIA LIFE
           </h2>
         </div>
-        <div className="flex justify-center xl:mt-11">
-          <button className="p-4  text-black hover:bg-black hover:text-white rounded-lg ring-1 ring-black font-light text-2xl xl:text-6xl mb-4 delay-0 duration-300 ">
-            Contact Us
+        <div className="flex justify-center mt-2 md:mt-5 xl:mt-11">
+          <button class="text-black p-4 px-10 hover:before:border-black relative rounded-lg delay-0 duration-300 overflow-hidden border-2 border-black transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-black before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full">
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className="text-2xl xl:text-4xl font-head font-semibold"
+            >
+              <span class="relative z-10">Contact Us</span>
+            </Link>
           </button>
         </div>
       </div>
