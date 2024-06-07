@@ -7,7 +7,7 @@ const LiveService = () => {
         LIVE STREAM SERVICES
       </h2>
       <hr class="w-32 h-1 mx-auto my-6 bg-white border-0 rounded md:my-16 md:w-40 lg:w-48" />
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-11 mx-8 ">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-11 mx-8 ">
         {liveServicesData.map((data) => {
           return <LiveServicesCard key={data.title} data={data} />;
         })}
