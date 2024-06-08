@@ -12,9 +12,9 @@ const OurWork = () => {
         </h1>
       </div>
       <hr class="w-32 h-1 mx-auto mt-6 bg-primary-color border-0 rounded md:mt-16 md:w-40 lg:w-48" />
-      <div className="mx-auto xs:h-[280px] xs:w-[330px] ss:h-[300px] ss:w-[350px] md:h-[500px] md:w-[700px] lg:h-[1050px] lg:w-[1350px] 2xl:h-[1200px] 2xl:w-[1600px]">
+      <div className="mx-auto xs:h-[290px] xs:w-[340px] ss:h-[320px] ss:w-[370px] md:h-[500px] md:w-[700px] lg:h-[1050px] lg:w-[1350px] 2xl:h-[1200px] 2xl:w-[1600px]">
         <CustomCarousel>
-          <div className="grid grid-cols-2 grid-rows-2 gap-5">
+          <div className="grid grid-cols-2 grid-rows-2 gap-2 md:gap-5">
             <div>
               <Image src="/Carousel/1.png" alt="." width={1000} height={1000} />
             </div>
@@ -29,7 +29,7 @@ const OurWork = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 grid-rows-2 gap-5">
+          <div className="grid grid-cols-2 grid-rows-2 gap-2 md:gap-5">
             <div>
               <Image src="/Carousel/5.png" alt="." width={1000} height={1000} />
             </div>

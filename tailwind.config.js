@@ -33,6 +33,7 @@ module.exports = {
       screens: {
         xs: "360px",
         ss: "390px",
+        kk: "2560px",
       },
     },
   },
