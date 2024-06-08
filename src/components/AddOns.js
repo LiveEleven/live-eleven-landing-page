@@ -9,7 +9,7 @@ const AddOns = () => {
   return (
     <div className="pt-20">
       <div className="flex justify-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center text-black font-bold font-head">
+        <h1 className="xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-black font-bold font-head">
           ADD - ONS
         </h1>
       </div>
