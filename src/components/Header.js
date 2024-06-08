@@ -12,15 +12,18 @@ const Header = () => {
         data-aos-duration="1000"
         className="right w-full lg:w-1/2 h-[500px] lg:h-screen relative"
       >
-        <picture className=" mx-auto">
-          <source media="(min-width: 900px)" srcset="header-pic.png" />
-          <Image
-            src="/hero.png"
-            fill={true}
-            alt="header-pic"
-            className="object-obtain"
-          />
-        </picture>
+        <Image
+          src="/Header.jpg"
+          fill={true}
+          alt="header-pic"
+          className="md:hidden lg:block lg:rounded-tl-3xl"
+        />
+        <Image
+          src="/HeaderTab.jpg"
+          fill={true}
+          alt="header-pic"
+          className="xs:hidden md:block lg:hidden"
+        />
       </div>
       <div
         className="left w-auto flex flex-col gap-6 lg:gap-10 mx-auto my-8 "

@@ -24,7 +24,7 @@ const SetUpLiveStreaming = () => {
       </p>
 
       <div
-        className="flex flex-col mx-0 lg:mx-72 2xl:mx-96 lg:flex-row"
+        className="flex flex-col mx-0 lg:mx-72 2xl:mx-96 kk:mx-[700px] lg:flex-row"
         id="setUpLivePackages"
       >
         <div className="bg-white flex flex-col items-center mx-auto px-5 border-2 border-primary-color rounded-lg mt-10 shadow-column lg:shadow-row">
