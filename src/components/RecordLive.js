@@ -8,7 +8,7 @@ const RecordLive = () => {
         className="left w-full h-1/2 lg:h-3/5 flex justify-center "
       >
         <iframe
-          src="https://www.youtube.com/embed/Uj4AWaR7gjU"
+          src="https://www.youtube.com/embed/KANuFdMOhDM"
           className="w-4/5 lg:w-full h-full"
         />
       </div>
