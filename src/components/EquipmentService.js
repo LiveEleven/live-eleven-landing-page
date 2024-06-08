@@ -6,7 +6,7 @@ const EquipmentService = () => {
     <div className="flex flex-col justify-center" id="equipment">
       <div className="bg-customTopGradient h-[200px]"></div>
       <div className="flex justify-center">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-black font-bold font-head">
+        <h1 className="xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-black font-bold font-head">
           EQUIPMENT SERVICES
         </h1>
       </div>

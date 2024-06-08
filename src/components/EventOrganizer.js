@@ -22,10 +22,10 @@ const EventOrganizer = () => {
         data-aos-duration="1000"
         className="flex flex-col gap-5 mb-10 lg:gap-20 lg:mb-0"
       >
-        <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-white font-bold font-head lg:text-left">
+        <h1 className="xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold font-head lg:text-left">
           EVENT ORGANIZER
         </h1>
-        <div>
+        <div className="mb-5">
           <p className="font-body text-xs text-white text-center md:text-3xl 2xl:text-4xl lg:text-left">
             ให้บริการจัดงานอีเวนท์ขนาดเล็ก กลาง ใหญ่ งานเปิดตัวสินค้า
           </p>
@@ -39,4 +39,3 @@ const EventOrganizer = () => {
 };
 
 export default EventOrganizer;
-

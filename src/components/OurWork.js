@@ -7,12 +7,12 @@ const OurWork = () => {
     <div>
       <div className="bg-customTopGradient h-[200px]"></div>
       <div className="flex justify-center">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl  text-center text-black font-bold font-head">
+        <h1 className="xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-black font-bold font-head">
           OUR WORK
         </h1>
       </div>
       <hr class="w-32 h-1 mx-auto mt-6 bg-primary-color border-0 rounded md:mt-16 md:w-40 lg:w-48" />
-      <div className="mx-auto h-[250px] w-[300px] md:h-[500px] md:w-[700px] lg:h-[1050px] lg:w-[1350px] 2xl:h-[1200px] 2xl:w-[1600px]">
+      <div className="mx-auto xs:h-[280px] xs:w-[330px] ss:h-[300px] ss:w-[350px] md:h-[500px] md:w-[700px] lg:h-[1050px] lg:w-[1350px] 2xl:h-[1200px] 2xl:w-[1600px]">
         <CustomCarousel>
           <div className="grid grid-cols-2 grid-rows-2 gap-5">
             <div>

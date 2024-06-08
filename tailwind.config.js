@@ -30,6 +30,10 @@ module.exports = {
           "-5px -5px 20px 4px rgba(0,0,0,0.2), 10px 10px 30px 4px rgba(0,0,0,0.2)",
         row: "25px 25px 10px -8px rgba(0, 0, 0, 0.2)",
       },
+      screens: {
+        xs: "360px",
+        ss: "390px",
+      },
     },
   },
   plugins: [flowbite.plugin()],
