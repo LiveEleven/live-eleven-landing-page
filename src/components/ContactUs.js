@@ -45,10 +45,7 @@ const ContactUs = () => {
   };
   return (
     <div className="bg-white h-auto flex flex-col items-center w-full">
-      <h1
-        className="mt-8 xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-black font-bold font-head lg:text-left"
-        id="contact"
-      >
+      <h1 className="mt-8 xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-black font-bold font-head lg:text-left">
         CONTACT US
       </h1>
       <hr className="w-32 h-1 mx-auto mt-3 bg-primary-color border-0 rounded md:mt-10 md:w-40 lg:w-48" />
@@ -221,3 +218,4 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+

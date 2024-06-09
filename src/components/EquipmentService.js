@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const EquipmentService = () => {
@@ -23,7 +22,7 @@ const EquipmentService = () => {
         </div>
       </div>
       <hr class="w-32 h-1 mx-auto mt-10 bg-primary-color border-0 rounded md:mt-20 md:w-40 lg:w-48" />
-      <div className="bg-customBottomGradient h-[200px]"></div>
+      <div className="bg-customBottomGradient h-[200px] " id="aboutus"></div>
     </div>
   );
 };

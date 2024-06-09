@@ -15,6 +15,8 @@ const EventOrganizer = () => {
         height={200}
         alt="EventPic"
         className="rounded-xl my-10"
+        style={{ height: "auto" }}
+        priority
       />
       <div
         data-aos="fade-right"
@@ -39,3 +41,4 @@ const EventOrganizer = () => {
 };
 
 export default EventOrganizer;
+

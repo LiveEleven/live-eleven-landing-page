@@ -2,9 +2,12 @@ import Image from "next/image";
 
 const Footer = () => {
   const icons = [
-    { icon: "icon-facebook", link: "https://www.facebook.com/" },
+    {
+      icon: "icon-facebook",
+      link: "https://www.facebook.com/profile.php?id=61560118615609",
+    },
     { icon: "icon-line", link: "https://line.me/en/" },
-    { icon: "icon-youtube", link: "https://www.youtube.com/" },
+    { icon: "icon-youtube", link: "https://www.youtube.com/@LiveEleven" },
     { icon: "icon-instagram", link: "https://www.instagram.com/" },
   ];
   return (
@@ -22,12 +25,13 @@ const Footer = () => {
                   key={icon.icon}
                   alt={icon.icon}
                   fill
+                  sizes="(max-width: 1024px) 16px, 28px"
                 />
               </a>
             </div>
           ))}
         </div>
-        <p>Copyright © 2024 ELEVEN MEDIA LIFE</p>
+        <p>Copyright © 2024 ELEVEN MEDIA LIVE</p>
       </div>
     </div>
   );

@@ -14,6 +14,7 @@ import OurWork from "@/components/OurWork";
 import RecordLive from "@/components/RecordLive";
 import SetUpLiveStreaming from "@/components/SetUpLiveStreaming";
 import AddOns from "@/components/AddOns";
+import { EmblaCarousel } from "@/components/EmblaCarousel";
 
 export default function Home() {
   return (
@@ -37,3 +38,4 @@ export default function Home() {
     </main>
   );
 }
+

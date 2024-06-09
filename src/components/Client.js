@@ -67,7 +67,7 @@ const Client = () => {
             <div className="flex justify-center items-center">
               <Image
                 className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
-                src="/irplus.png"
+                src="/irplus_1.png"
                 alt="."
                 width={250}
                 height={250}
@@ -76,7 +76,10 @@ const Client = () => {
           </div>
         </CustomCarousel>
       </div>
-      <hr class="w-32 h-1 mx-auto mt-5 bg-white border-0 rounded md:mt-10 md:w-40 lg:w-48 mb-14" />
+      <hr
+        class="w-32 h-1 mx-auto mt-5 bg-white border-0 rounded md:mt-10 md:w-40 lg:w-48 mb-14"
+        id="contact"
+      />
     </div>
   );
 };
