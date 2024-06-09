@@ -86,7 +86,7 @@ const SetUpLiveStreaming = () => {
         </div>
       ) : (
         <EmblaCarousel>
-          <div className="embla__slide ">
+          <div className="embla__slide">
             <div className="bg-white flex flex-col items-center mx-auto px-5 border-2 border-primary-color rounded-lg mt-10 shadow-column lg:shadow-row ">
               <h2 className="font-head text-md font-bold mt-6 md:text-xl lg:text-2xl">
                 Online Set
@@ -112,7 +112,7 @@ const SetUpLiveStreaming = () => {
                   การใช้ software ต่างๆ
                 </p>
               </div>
-              <p className="font-body text-center mt-14 mb-6 text-[9px] md:text-xs">
+              <p className="font-body text-center mt-16 md:mt-14 mb-6 text-[9px] md:text-xs">
                 *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
               </p>
             </div>
@@ -138,7 +138,7 @@ const SetUpLiveStreaming = () => {
                   รวมถึงการให้คำปรึกษาทั้งระบบ
                 </p>
               </div>
-              <p className="font-body text-center mt-28 mb-6 text-[9px] md:text-xs">
+              <p className="font-body text-center mt-[105px] md:mt-28 mb-6 text-[9px] md:text-xs">
                 *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
               </p>
             </div>
@@ -151,4 +151,3 @@ const SetUpLiveStreaming = () => {
 };
 
 export default SetUpLiveStreaming;
-
