@@ -138,7 +138,7 @@ const SetUpLiveStreaming = () => {
                   รวมถึงการให้คำปรึกษาทั้งระบบ
                 </p>
               </div>
-              <p className="font-body text-center mt-[103px] md:mt-28 mb-6 text-[9px] md:text-xs">
+              <p className="font-body text-center mt-[104px] md:mt-28 mb-6 text-[9px] md:text-xs">
                 *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
               </p>
             </div>
