@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
     <div className="bg-primary-color h-auto w-full">
-      <div className=" h-auto flex flex-col items-center w-full" id="aboutus">
+      <div className=" h-auto flex flex-col items-center w-full">
         <h1 className="xs:mt-2 md:mt-5 xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold font-head lg:text-left">
           ABOUT US
         </h1>
@@ -24,3 +24,4 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+

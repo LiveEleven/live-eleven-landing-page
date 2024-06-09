@@ -10,11 +10,12 @@ const HybridEvent = () => {
         data-aos="fade-right"
         data-aos-delay={200}
         data-aos-duration="1000"
-        src="/Event.jpg"
+        src="/carousel/6.png"
         width={600}
         height={200}
         alt="EventPic"
         className="rounded-xl my-10"
+        style={{ width: "auto" }}
       />
       <div
         data-aos="fade-left"

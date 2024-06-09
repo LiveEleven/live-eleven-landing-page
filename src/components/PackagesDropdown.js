@@ -32,9 +32,7 @@ const PackagesDropdown = () => {
         >
           <MenuButton>
             <div className="flex items-center gap-2">
-              <h2 className="text-md md:text-xl lg:text-2xl font-head">
-                Packages
-              </h2>
+              <h2 className="text-sm  md:text-xl font-head">Packages</h2>
               <Image
                 className="w-2 h-2"
                 src="/arrow-down.png"
@@ -56,3 +54,4 @@ const PackagesDropdown = () => {
 };
 
 export default PackagesDropdown;
+

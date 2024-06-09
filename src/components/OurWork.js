@@ -43,6 +43,41 @@ const OurWork = () => {
               <Image src="/Carousel/8.png" alt="." width={1000} height={1000} />
             </div>
           </div>
+
+          {/* <div className="grid grid-cols-2 grid-rows-2 gap-2 md:gap-5">
+            <div>
+              <Image
+                src="/Carousel/9.HEIC"
+                alt="."
+                width={1000}
+                height={1000}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Carousel/10.jpg"
+                alt="."
+                width={1000}
+                height={1000}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Carousel/11.jpg"
+                alt="."
+                width={1000}
+                height={1000}
+              />
+            </div>
+            <div>
+              <Image
+                src="/Carousel/12.jpg"
+                alt="."
+                width={1000}
+                height={1000}
+              />
+            </div>
+          </div> */}
         </CustomCarousel>
       </div>
       <hr class="w-32 h-1 mx-auto mt-10 bg-primary-color border-0 rounded md:mt-20 md:w-40 lg:w-48" />
@@ -52,3 +87,4 @@ const OurWork = () => {
 };
 
 export default OurWork;
+
