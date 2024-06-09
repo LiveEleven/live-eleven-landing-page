@@ -173,7 +173,7 @@ const LivePackages = () => {
                   Stream Duration 1 hr.
                 </p>
               </div>
-              <p className="font-body text-center mt-6 mb-6 text-[7px] md:text-xs">
+              <p className="font-body text-center mt-16 md:mt-[156px] mb-6 text-[7px] md:text-xs">
                 *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
               </p>
             </div>
@@ -215,7 +215,7 @@ const LivePackages = () => {
                   Stream Duration {">"} 2 hrs.
                 </p>
               </div>
-              <p className="font-body text-center mt-6 mb-6 text-[7px] md:text-xs">
+              <p className="font-body text-center mt-12 mb-6 text-[7px] md:text-xs">
                 *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
               </p>
             </div>
@@ -257,7 +257,7 @@ const LivePackages = () => {
                   Stream Duration {">"} 2 hrs.
                 </p>
               </div>
-              <p className="font-body text-center mt-6 mb-6 text-[7px] md:text-xs">
+              <p className="font-body text-center mt-12 mb-6 text-[7px] md:text-xs">
                 *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
               </p>
             </div>
@@ -271,4 +271,3 @@ const LivePackages = () => {
 };
 
 export default LivePackages;
-

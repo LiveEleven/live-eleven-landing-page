@@ -40,7 +40,7 @@ export function EmblaCarousel({ children, active }) {
 
   return (
     <div className="embla flex justify-center items-center flex-col">
-      <div className=" mx-auto w-full" ref={emblaRef}>
+      <div className=" mx-auto w-full md:w-[450px]" ref={emblaRef}>
         <div className="embla__container">{children}</div>
       </div>
       <div className="embla__controls">
