@@ -173,7 +173,7 @@ const LivePackages = () => {
                   Stream Duration 1 hr.
                 </p>
               </div>
-              <p className="font-body text-center mt-16 md:mt-[156px] mb-6 text-[7px] md:text-xs">
+              <p className="font-body text-center mt-[62px] md:mt-[156px] mb-6 text-[7px] md:text-xs">
                 *เป็นราคาเบื้องต้นอาจมีการปรับเปลี่ยนตามขอบเขตและรายละเอียดของงาน
               </p>
             </div>
