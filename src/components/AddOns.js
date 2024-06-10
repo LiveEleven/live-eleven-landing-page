@@ -1,4 +1,3 @@
-import Image from "next/image";
 import AddOnsCol1 from "./AddOnsCol1";
 import AddOnsCol2 from "./AddonsCol2";
 import AddOnsCol3 from "./AddOnsCol3";

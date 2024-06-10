@@ -28,7 +28,7 @@ const Client = () => {
             <div className="flex justify-center items-center">
               <Image
                 className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
-                src="/la-roche-posay.png"
+                src="/larocheposay.png"
                 alt="."
                 width={250}
                 height={250}
