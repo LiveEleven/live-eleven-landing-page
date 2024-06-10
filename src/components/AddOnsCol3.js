@@ -32,7 +32,7 @@ const AddOnsCol3 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head text-sm lg:text-lg">SFX</p>
+          <p className="text-left font-head text-sm lg:text-lg">Sound Effect</p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
@@ -51,7 +51,7 @@ const AddOnsCol3 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head text-sm lg:text-lg">OT</p>
+          <p className="text-left font-head text-sm lg:text-lg">Over Times</p>
         </MenuButton>
         <MenuItems className="flex flex-col gap-2">
           <MenuItem>

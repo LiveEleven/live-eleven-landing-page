@@ -73,7 +73,7 @@ const LivePackages = () => {
               </p>
               <hr class="w-44 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-64 lg:w-48" />
               <p className="font-head text-sm text-center font-semibold md:text-lg">
-                1 Camera Switcher
+                1 OB Switcher
               </p>
               <hr class="w-44 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-64 lg:w-48" />
               <p className="font-head text-sm text-center font-semibold md:text-lg">
@@ -114,7 +114,7 @@ const LivePackages = () => {
               </p>
               <hr class="w-44 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-64 lg:w-48" />
               <p className="font-head text-sm text-center font-semibold md:text-lg">
-                1 Camera Switcher
+                1 OB Switcher
               </p>
               <hr class="w-44 h-0.5 mx-auto my-6 bg-secondary-color border-0 rounded md:my-10 md:w-64 lg:w-48" />
               <p className="font-head text-sm text-center font-semibold md:text-lg">

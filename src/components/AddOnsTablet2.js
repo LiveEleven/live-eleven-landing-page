@@ -93,7 +93,7 @@ const AddOnsTablet2 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head text-md">SFX</p>
+          <p className="text-left font-head text-md">Sound Effect</p>
         </MenuButton>
         <MenuItems>
           <MenuItem>
@@ -112,7 +112,7 @@ const AddOnsTablet2 = () => {
             alt="Plus"
             className="w-4 h-4"
           />
-          <p className="text-left font-head text-md">OT</p>
+          <p className="text-left font-head text-md">Over Times</p>
         </MenuButton>
         <MenuItems className="flex flex-col gap-2">
           <MenuItem>

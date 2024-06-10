@@ -16,7 +16,7 @@ const Header = () => {
           src="/Header.jpg"
           fill={true}
           alt="header-pic"
-          className="md:hidden lg:block lg:rounded-tl-3xl"
+          className="md:hidden lg:block lg:rounded-l-3xl"
         />
         <Image
           src="/HeaderTab.jpg"
