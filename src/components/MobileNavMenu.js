@@ -20,7 +20,7 @@ const MobileNavMenu = () => {
               spy={true}
               smooth={true}
               offset={0}
-              duration={500}
+              duration={200}
               className="text-md md:text-xl font-head"
             >
               About Us
@@ -51,3 +51,4 @@ const MobileNavMenu = () => {
 };
 
 export default MobileNavMenu;
+

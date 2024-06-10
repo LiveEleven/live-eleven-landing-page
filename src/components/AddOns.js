@@ -16,7 +16,7 @@ const AddOns = () => {
       <div
         data-aos="fade-up"
         data-aos-delay={200}
-        data-aos-duration="1000"
+        data-aos-duration="500"
         className="flex flex-col mx-14 lg:mx-32 2xl:mx-80 gap-4 md:flex-row md:justify-between"
       >
         <AddOnsCol1 />
@@ -32,3 +32,4 @@ const AddOns = () => {
 };
 
 export default AddOns;
+

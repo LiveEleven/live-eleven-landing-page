@@ -6,7 +6,7 @@ const Footer = () => {
       icon: "icon-facebook",
       link: "https://www.facebook.com/profile.php?id=61560118615609",
     },
-    { icon: "icon-line", link: "https://line.me/en/" },
+    { icon: "icon-line", link: "https://lin.ee/eLySrci" },
     { icon: "icon-youtube", link: "https://www.youtube.com/@LiveEleven" },
     { icon: "icon-instagram", link: "https://www.instagram.com/" },
   ];

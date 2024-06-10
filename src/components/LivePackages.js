@@ -16,7 +16,7 @@ const LivePackages = () => {
         <div
           data-aos="fade-up"
           data-aos-delay={200}
-          data-aos-duration="1000"
+          data-aos-duration="500"
           className="flex flex-col mx-0 lg:flex-row lg:mx-10 2xl:mx-40"
         >
           <div className="flex flex-col items-center mx-auto px-5 border-2 border-primary-color rounded-lg mt-10 shadow-column lg:shadow-row">
@@ -271,3 +271,4 @@ const LivePackages = () => {
 };
 
 export default LivePackages;
+

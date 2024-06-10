@@ -4,7 +4,7 @@ const RecordLive = () => {
       <div
         data-aos="fade-right"
         data-aos-delay={200}
-        data-aos-duration="1000"
+        data-aos-duration="500"
         className="left w-full h-1/2 lg:h-3/5 flex justify-center "
       >
         <iframe
@@ -16,7 +16,7 @@ const RecordLive = () => {
       <div
         data-aos="fade-left"
         data-aos-delay={200}
-        data-aos-duration="1000"
+        data-aos-duration="500"
         className="right w-full h-1/2 mt-6"
       >
         <h2 className="font-bold font-head text-center xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">

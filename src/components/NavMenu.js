@@ -23,7 +23,7 @@ const NavMenu = () => {
             spy={true}
             smooth={true}
             offset={0}
-            duration={500}
+            duration={200}
             className="hidden lg:flex text-sm  md:text-xl px-4 font-head"
           >
             About Us

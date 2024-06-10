@@ -11,7 +11,7 @@ const Client = () => {
       <div
         data-aos="fade-left"
         data-aos-delay={200}
-        data-aos-duration="1000"
+        data-aos-duration="500"
         className="mx-auto h-[100px] lg:h-[200px] w-full flex md:mt-4"
       >
         <CustomCarousel>

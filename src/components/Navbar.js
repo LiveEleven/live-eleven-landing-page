@@ -20,7 +20,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={0}
-          duration={500}
+          duration={200}
           className="text-4xl px-4 cursor-pointer"
         >
           <Image

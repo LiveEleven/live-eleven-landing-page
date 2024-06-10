@@ -9,7 +9,7 @@ const EventOrganizer = () => {
       <Image
         data-aos="fade-left"
         data-aos-delay={200}
-        data-aos-duration="1000"
+        data-aos-duration="500"
         src="/Event.jpg"
         width={600}
         height={200}
@@ -21,7 +21,7 @@ const EventOrganizer = () => {
       <div
         data-aos="fade-right"
         data-aos-delay={200}
-        data-aos-duration="1000"
+        data-aos-duration="500"
         className="flex flex-col gap-5 mb-10 lg:gap-20 lg:mb-0"
       >
         <h1 className="xs:text-2xl ss:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold font-head lg:text-left">

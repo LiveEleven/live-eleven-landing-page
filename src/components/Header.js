@@ -9,7 +9,7 @@ const Header = () => {
       <div
         data-aos="fade-left"
         data-aos-delay={200}
-        data-aos-duration="1000"
+        data-aos-duration="500"
         className="right w-full lg:w-1/2 h-[500px] lg:h-screen relative"
       >
         <Image
@@ -29,7 +29,7 @@ const Header = () => {
         className="left w-auto flex flex-col gap-6 lg:gap-10 mx-auto my-8 "
         data-aos="fade-right"
         data-aos-delay={200}
-        data-aos-duration="1000"
+        data-aos-duration="500"
       >
         <h1
           className=" text-white font-bold font-body text-center text-3xl md:text-5xl lg:text-6xl items-center"
@@ -57,7 +57,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={0}
-              duration={500}
+              duration={200}
               className="text-2xl xl:text-4xl font-head font-semibold"
             >
               <span class="relative z-10">Contact Us</span>
