@@ -46,7 +46,7 @@ const Header = () => {
           >
             ELEVEN
             <br />
-            MEDIA LIFE
+            MEDIA LIVE
           </h2>
         </div>
         <div className="flex justify-center mt-2 md:mt-5 xl:mt-11">
