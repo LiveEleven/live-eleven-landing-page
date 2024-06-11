@@ -1,7 +1,7 @@
 import { MenuItem } from "@headlessui/react";
 import { Link } from "react-scroll/modules";
 
-const PackagesItems = () => {
+const PackagesItems = ({ toggleMenu }) => {
   return (
     <div>
       <Link
@@ -12,6 +12,7 @@ const PackagesItems = () => {
         offset={0}
         duration={200}
         className="text-sm font-head"
+        onClick={toggleMenu}
       >
         <MenuItem>
           <button className="py-2 px-1 w-full text-left lg:px-6 hover:bg-secondary-color mt-3 lg:mt-6">
@@ -28,6 +29,7 @@ const PackagesItems = () => {
         offset={0}
         duration={200}
         className="text-sm font-head"
+        onClick={toggleMenu}
       >
         <MenuItem>
           <button className="py-2 px-1 w-full text-left lg:px-6 hover:bg-secondary-color lg:hover:rounded-b-lg">
@@ -40,4 +42,3 @@ const PackagesItems = () => {
 };
 
 export default PackagesItems;
-

@@ -4,14 +4,14 @@ import PackagesDropdown from "./PackagesDropdown";
 import { Link } from "react-scroll";
 import { NavIcons } from "./NavIcons";
 
-const MobileNavMenu = () => {
+const MobileNavMenu = ({ toggleMenu }) => {
   return (
     <>
       <div className="absolute top-10 right-0 flex justify-center w-[250px] md:w-[300px] py-4 px-8 md:px-10 rounded-l-md bg-white lg:hidden ">
         <div className="flex flex-col items-center gap-4">
-          <ServicesDropdown />
+          <ServicesDropdown toggleMenu={toggleMenu} />
           <hr class="w-40 h-0.5 mx-auto bg-secondary-color border-0 rounded md:w-48" />
-          <PackagesDropdown />
+          <PackagesDropdown toggleMenu={toggleMenu} />
           <hr class="w-40 h-0.5 mx-auto bg-secondary-color border-0 rounded md:w-48" />
           <button>
             <Link
@@ -21,7 +21,8 @@ const MobileNavMenu = () => {
               smooth={true}
               offset={0}
               duration={200}
-              className="text-md md:text-xl font-head"
+              className="text-sm md:text-xl font-head"
+              onClick={toggleMenu}
             >
               About Us
             </Link>
@@ -51,4 +52,3 @@ const MobileNavMenu = () => {
 };
 
 export default MobileNavMenu;
-

@@ -3,6 +3,7 @@ import { Link } from "react-scroll/modules";
 import { useState } from "react";
 import NavMenu from "./NavMenu";
 import MobileNavMenu from "./MobileNavMenu";
+import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,7 +53,7 @@ const Navbar = () => {
         <NavMenu />
       </div>
 
-      {isMenuOpen ? <MobileNavMenu /> : null}
+      {isMenuOpen ? <MobileNavMenu toggleMenu={toggleMenu} /> : null}
     </nav>
   );
 };
