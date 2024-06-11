@@ -18,7 +18,7 @@ const Client = () => {
           <div className="grid grid-cols-3">
             <div className="flex justify-center items-center">
               <Image
-                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                className="w-20 h-7 md:w-44 md:h-20 lg:w-60 lg:h-30"
                 src="/cerave.png"
                 alt="."
                 width={250}
@@ -27,7 +27,7 @@ const Client = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                className="w-20 h-7 md:w-44 md:h-20 lg:w-60 lg:h-30"
                 src="/larocheposay.png"
                 alt="."
                 width={250}
@@ -36,7 +36,7 @@ const Client = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                className="w-20 h-7 md:w-44 md:h-20 lg:w-60 lg:h-30"
                 src="/loreal.png"
                 alt="."
                 width={250}
@@ -48,7 +48,7 @@ const Client = () => {
           <div className="grid grid-cols-3">
             <div className="flex justify-center items-center">
               <Image
-                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                className="w-20 h-7 md:w-44 md:h-20 lg:w-60 lg:h-30"
                 src="/vichy.png"
                 alt="."
                 width={250}
@@ -57,7 +57,7 @@ const Client = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                className="w-20 h-7 md:w-44 md:h-20 lg:w-60 lg:h-30"
                 src="/cgsi.png"
                 alt="."
                 width={250}
@@ -66,7 +66,7 @@ const Client = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                className="w-20 h-10 md:w-44 md:h-20 lg:w-60 lg:h-30"
+                className="w-20 h-7 md:w-44 md:h-20 lg:w-60 lg:h-30"
                 src="/irplus_1.png"
                 alt="."
                 width={250}
