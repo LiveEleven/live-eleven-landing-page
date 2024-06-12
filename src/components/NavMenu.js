@@ -32,7 +32,7 @@ const NavMenu = () => {
       </div>
       <div className="hidden lg:flex items-center gap-2 lg:gap-4">
         <div className="flex justify-center items-center gap-2">
-          <div className="relative w-4 h-4 lg:w-7 lg:h-7 cursor-pointer">
+          <div className="relative w-4 h-4 lg:w-7 lg:h-7">
             <Image src="/icon-phone.png" alt={"icon-phone"} fill />
           </div>
 
@@ -59,4 +59,3 @@ const NavMenu = () => {
 };
 
 export default NavMenu;
-

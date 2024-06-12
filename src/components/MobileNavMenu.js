@@ -29,7 +29,7 @@ const MobileNavMenu = ({ toggleMenu }) => {
           </button>
           <hr class="w-40 h-0.5 mx-auto bg-secondary-color border-0 rounded md:w-48" />
           <div className="flex justify-center items-center gap-2">
-            <div className="relative w-4 h-4 lg:w-7 lg:h-7 cursor-pointer">
+            <div className="relative w-4 h-4 lg:w-7 lg:h-7">
               <Image src="/icon-phone.png" alt={"icon-phone"} fill />
             </div>
 
@@ -59,4 +59,3 @@ const MobileNavMenu = ({ toggleMenu }) => {
 };
 
 export default MobileNavMenu;
-

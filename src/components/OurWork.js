@@ -35,48 +35,48 @@ const OurWork = () => {
             </div>
             <div
               className="cursor-pointer"
-              onClick={() => onClick("/Carousel/2.png")}
+              onClick={() => onClick("/Carousel/2.jpg")}
             >
-              <Image src="/Carousel/2.png" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/2.jpg" alt="." width={1000} height={1000} />
             </div>
             <div
               className="cursor-pointer"
-              onClick={() => onClick("/Carousel/3.png")}
+              onClick={() => onClick("/Carousel/3.jpg")}
             >
-              <Image src="/Carousel/3.png" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/3.jpg" alt="." width={1000} height={1000} />
             </div>
             <div
               className="cursor-pointer"
-              onClick={() => onClick("/Carousel/4.png")}
+              onClick={() => onClick("/Carousel/4.jpg")}
             >
-              <Image src="/Carousel/4.png" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/4.jpg" alt="." width={1000} height={1000} />
             </div>
           </div>
 
           <div className="grid grid-cols-2 grid-rows-2 gap-2 md:gap-5">
             <div
               className="cursor-pointer"
-              onClick={() => onClick("/Carousel/5.png")}
+              onClick={() => onClick("/Carousel/5.jpg")}
             >
-              <Image src="/Carousel/5.png" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/5.jpg" alt="." width={1000} height={1000} />
             </div>
             <div
               className="cursor-pointer"
-              onClick={() => onClick("/Carousel/6.png")}
+              onClick={() => onClick("/Carousel/6.jpg")}
             >
-              <Image src="/Carousel/6.png" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/6.jpg" alt="." width={1000} height={1000} />
             </div>
             <div
               className="cursor-pointer"
-              onClick={() => onClick("/Carousel/7.png")}
+              onClick={() => onClick("/Carousel/7.jpg")}
             >
-              <Image src="/Carousel/7.png" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/7.jpg" alt="." width={1000} height={1000} />
             </div>
             <div
               className="cursor-pointer"
-              onClick={() => onClick("/Carousel/8.png")}
+              onClick={() => onClick("/Carousel/8.jpg")}
             >
-              <Image src="/Carousel/8.png" alt="." width={1000} height={1000} />
+              <Image src="/Carousel/8.jpg" alt="." width={1000} height={1000} />
             </div>
           </div>
         </CustomCarousel>
