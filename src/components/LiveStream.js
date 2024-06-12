@@ -62,7 +62,7 @@ const LiveStream = () => {
       </div>
       <div className="w-full mx-auto mt-7">
         <div className="flex items-center justify-center ">
-          <div className="flex justify-center items-center">
+          <div className="relative w-[68px]  sss:w-[130px] md:w-auto h-200   flex justify-center items-center">
             <Image
               src={"/Brand/Facebook-brand.png"}
               width={200}
@@ -70,7 +70,7 @@ const LiveStream = () => {
               alt="facebook-brand"
             />
           </div>
-          <div className="relative w-auto h-auto  flex justify-center items-center">
+          <div className="relative w-[68px]  sss:w-[130px] md:w-auto h-200   flex justify-center items-center">
             <Image
               src={"/Brand/Instagram-brand3.png"}
               width={200}
@@ -78,7 +78,7 @@ const LiveStream = () => {
               alt="instagram-brand"
             />
           </div>
-          <div className="relative w-auto h-auto  flex justify-center items-center">
+          <div className="relative w-[68px]  sss:w-[130px] md:w-auto h-200   flex justify-center items-center">
             <Image
               src={"/Brand/Tiktok-brand.png"}
               width={200}
@@ -86,7 +86,7 @@ const LiveStream = () => {
               alt="tiltok-brand"
             />
           </div>
-          <div className="relative w-auto h-auto  flex justify-center items-center">
+          <div className="relative w-[68px]  sss:w-[130px] md:w-auto h-200   flex justify-center items-center">
             <Image
               src={"/Brand/Youtube-brand.png"}
               width={200}
@@ -94,7 +94,7 @@ const LiveStream = () => {
               alt="youtube-brand"
             />
           </div>
-          <div className="relative w-auto h-auto  flex justify-center items-center">
+          <div className="relative w-[68px]  sss:w-[130px] md:w-auto h-200   flex justify-center items-center">
             <Image
               src={"/Brand/Lazada-brand.png"}
               width={200}
@@ -104,7 +104,7 @@ const LiveStream = () => {
           </div>
         </div>
         <div className="flex items-center justify-center mx-auto">
-          <div className="relative w-[80px]  sss:w-[130px] md:w-auto h-200   flex justify-center items-center">
+          <div className="relative w-[68px]  sss:w-[110px] md:w-auto h-200   flex justify-center items-center">
             <Image
               src={"/Brand/Shopee-brand.png"}
               width={200}
@@ -112,7 +112,7 @@ const LiveStream = () => {
               alt="shopee-brand"
             />
           </div>
-          <div className="relative w-[110px] h-auto sss:w-[130px] md:w-auto flex justify-center items-center">
+          <div className="relative w-[90px] h-auto sss:w-[130px] md:w-auto flex justify-center items-center">
             <Image
               src={"/Brand/Teams-brand.png"}
               width={200}
@@ -120,7 +120,7 @@ const LiveStream = () => {
               alt="teams-brand"
             />
           </div>
-          <div className="relative w-[80px] h-auto   sss:w-[130px] md:w-auto flex justify-center items-center">
+          <div className="relative w-[53px] h-auto   sss:w-[110px] md:w-auto flex justify-center items-center">
             <Image
               src={"/Brand/Zoom-brand.png"}
               width={200}
