@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const LiveStream = () => {
   return (
     <div className="flex flex-col justify-center" id="live">
@@ -58,10 +60,81 @@ const LiveStream = () => {
           </div>
         </div>
       </div>
-      <hr class="w-32 h-1 mx-auto mt-10 bg-primary-color border-0 rounded md:mt-20 md:w-40 lg:w-48" />
+      <div className="w-full mx-auto mt-7">
+        <div className="flex items-center justify-center ">
+          <div className="flex justify-center items-center">
+            <Image
+              src={"/Brand/Facebook-brand.png"}
+              width={200}
+              height={200}
+              alt="facebook-brand"
+            />
+          </div>
+          <div className="relative w-auto h-auto  flex justify-center items-center">
+            <Image
+              src={"/Brand/Instagram-brand3.png"}
+              width={200}
+              height={200}
+              alt="instagram-brand"
+            />
+          </div>
+          <div className="relative w-auto h-auto  flex justify-center items-center">
+            <Image
+              src={"/Brand/Tiktok-brand.png"}
+              width={200}
+              height={200}
+              alt="tiltok-brand"
+            />
+          </div>
+          <div className="relative w-auto h-auto  flex justify-center items-center">
+            <Image
+              src={"/Brand/Youtube-brand.png"}
+              width={200}
+              height={200}
+              alt="youtube-brand"
+            />
+          </div>
+          <div className="relative w-auto h-auto  flex justify-center items-center">
+            <Image
+              src={"/Brand/Lazada-brand.png"}
+              width={200}
+              height={200}
+              alt="lazada-brand"
+            />
+          </div>
+        </div>
+        <div className="flex items-center justify-center mx-auto">
+          <div className="relative w-[80px]  sss:w-[130px] md:w-auto h-200   flex justify-center items-center">
+            <Image
+              src={"/Brand/Shopee-brand.png"}
+              width={200}
+              height={200}
+              alt="shopee-brand"
+            />
+          </div>
+          <div className="relative w-[110px] h-auto sss:w-[130px] md:w-auto flex justify-center items-center">
+            <Image
+              src={"/Brand/Teams-brand.png"}
+              width={200}
+              height={200}
+              alt="teams-brand"
+            />
+          </div>
+          <div className="relative w-[80px] h-auto   sss:w-[130px] md:w-auto flex justify-center items-center">
+            <Image
+              src={"/Brand/Zoom-brand.png"}
+              width={200}
+              height={200}
+              alt="zoom-brand"
+            />
+          </div>
+        </div>
+      </div>
+      <hr class="w-32 h-1 mx-auto mt-5 bg-primary-color border-0 rounded md:mt-14 md:w-40 lg:w-48" />
       <div className="bg-customBottomGradient h-[200px]"></div>
     </div>
   );
 };
 
 export default LiveStream;
+
