@@ -72,7 +72,7 @@ const LiveStream = () => {
           </div>
           <div className="relative w-[68px]  sss:w-[130px] md:w-auto h-200   flex justify-center items-center">
             <Image
-              src={"/Brand/Instagram-brand3.png"}
+              src={"/Brand/Instagram-brand.png"}
               width={200}
               height={200}
               alt="instagram-brand"
