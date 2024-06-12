@@ -10,7 +10,7 @@ const EventOrganizer = () => {
         data-aos="fade-left"
         data-aos-delay={200}
         data-aos-duration="500"
-        src="/Event.jpg"
+        src="/eventImg.jpg"
         width={600}
         height={200}
         alt="EventPic"

@@ -7,7 +7,7 @@ import { NavIcons } from "./NavIcons";
 const NavMenu = () => {
   return (
     <>
-      <div className="hidden lg:flex items-center ">
+      <div className="hidden lg:flex items-center ml-48">
         <div className="px-4">
           <ServicesDropdown />
         </div>
@@ -30,8 +30,14 @@ const NavMenu = () => {
           </Link>
         </button>
       </div>
-
       <div className="hidden lg:flex items-center gap-2 lg:gap-4">
+        <div className="flex justify-center items-center gap-2">
+          <div className="relative w-4 h-4 lg:w-7 lg:h-7 cursor-pointer">
+            <Image src="/icon-phone.png" alt={"icon-phone"} fill />
+          </div>
+
+          <p>087-510-7972</p>
+        </div>
         {NavIcons.map((icon) => (
           <div
             className="relative w-4 h-4 lg:w-7 lg:h-7 cursor-pointer"
