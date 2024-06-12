@@ -13,7 +13,7 @@ const customTheme = {
       off: "bg-black/20 hover:bg-white dark:bg-gray-800/50 dark:hover:bg-gray-800",
       on: "bg-black/50 dark:bg-gray-800",
     },
-    base: "h-4 w-4 rounded-full lg:h-6 lg:w-6",
+    base: "h-4 w-4 rounded-full lg:h-4 lg:w-4 2xl:h-6 lg:w-6",
     wrapper:
       "absolute bottom-2 left-1/2 flex -translate-x-1/2 space-x-3 md:bottom-5 lg:bottom-10",
   },
